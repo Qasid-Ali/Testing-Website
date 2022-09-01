@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background: rgba(23, 162, 184, 0.3);
+      }
+      .wrapper {
+        max-width: 1200px;
+        padding: 0 20px;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+      .wrapper .box {
+        background: #fff;
+        width: calc(33% - 10px);
+        padding: 25px;
+        border-radius: 3px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+      }
+      .wrapper .box i.quote {
+        font-size: 20px;
+        color: #17a2b8;
+      }
+      .wrapper .box .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+      }
+      .box .info .name {
+        font-weight: 600;
+        font-size: 17px;
+      }
+      .box .info .job {
+        font-size: 16px;
+        font-weight: 500;
+        color: #17a2b8;
+      }
+      .box .info .stars {
+        margin-top: 2px;
+      }
+      .box .info .stars i {
+        color: #17a2b8;
+      }
+      .box .content .image {
+        height: 75px;
+        width: 75px;
+        padding: 3px;
+        background: #17a2b8;
+        border-radius: 50%;
+      }
+      .content .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 2px solid #fff;
+      }
+      .box:hover .content .image img {
+        border-color: #fff;
+      }
+      @media screen and (max-width: 760px) {
+        .wrapper {
+          display: block;
+          width: 100%;
+        }
+        .wrapper .box {
+          width: 100%;
+          margin: 20px 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="box">
+        <i class="fas fa-quote-left quote"></i>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta hic
+          repellat quia dignissimos harum illo cum voluptatibus facere
+          exercitationem a. Perferendis id repudiandae quos animi libero totam,
+          magni ipsa nisi?
+        </p>
+        <div class="content">
+          <div class="info">
+            <div class="name">Qasid Ali</div>
+            <div class="job">Web Developer</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="image">
+              <img src="my-pic.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-quote-left quote"></i>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta hic
+          repellat quia dignissimos harum illo cum voluptatibus facere
+          exercitationem a. Perferendis id repudiandae quos animi libero totam,
+          magni ipsa nisi?
+        </p>
+        <div class="content">
+          <div class="info">
+            <div class="name">Qasid Ali</div>
+            <div class="job">Web Developer</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="image">
+              <img src="my-pic.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="box">
+        <i class="fas fa-quote-left quote"></i>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta hic
+          repellat quia dignissimos harum illo cum voluptatibus facere
+          exercitationem a. Perferendis id repudiandae quos animi libero totam,
+          magni ipsa nisi?
+        </p>
+        <div class="content">
+          <div class="info">
+            <div class="name">Qasid Ali</div>
+            <div class="job">Web Developer</div>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+            </div>
+            <div class="image">
+              <img src="my-pic.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
